@@ -1,0 +1,80 @@
+/*Aquí irán mis estilos css*/
+.title{
+  color: tomato;
+  font-size: 2rem;
+  border: 3px cyan dashed;
+}
+div h2, div{
+  color: blue;
+  font-size: 1.5rem;
+  border-style: dashed;
+  border-color: red;
+  border-radius: 5px;
+}
+.fondo{
+  background-color: rgba(0, 0, 0, 0.2);
+  /*opacity: 0.3;*/
+  background-image: url("https://placem.at/people?w=350&h=350");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 22px;
+
+}
+.margen{
+    margin: 12px;
+    padding: 30px;
+    border: 1px solid black;
+    height: 100px;
+    width: 50px;
+    background-color: chocolate;
+    /*overflow: scroll;*/
+    outline: 1px solid red;
+    text-shadow: 2px 2px 2px gray;
+    font-family: verdana;
+
+}
+.margen:hover{
+  color: yellow;
+}
+/*Position
+ - relative:  es relativo a su posición, es decir al origen;
+ - Absolute: toma su posición respecto al padre que lo contiene ;
+*/
+.position{
+  color: tomato;
+  font-weight: bold;
+  position: absolute;
+  left: 50px;
+  top: 20px;
+}
+
+/*propiedad float*/
+
+.container{
+  height: 480px;
+  border: 1px solid black;
+  width: 480px;
+}
+.left{
+  float: left;
+  width: 200px;
+  height: 200px;
+  color: red;
+  font-weight: bold;
+}
+
+.right{
+  color: blue;
+  font-weight: bold;
+  float: right;
+
+}
+.container img{
+  width: 200px;
+  height: 200
+}
+.container p{
+  float: right;
+}
+/*a los elementos inline no se les puede dar la propiedad height y width*/
